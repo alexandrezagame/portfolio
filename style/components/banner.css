@@ -1,0 +1,84 @@
+.banner-section {
+	width: 80%;
+	padding: 50px 50px 25px 50px;
+}
+
+.banner-text h2 {
+   width: 80%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+   font-family: 'Manrope', sans-serif;
+   font-weight: 400;
+} 
+
+.banner-text h2 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.banner-text {
+	/*border-top-width: 50px !important;*/
+	/*border-bottom-width: 50px !important;*/
+}
+
+section.banner-text {
+	border: 0px solid #000000;
+	padding: 50px;
+	background-color: #ffffff;
+	position: relative;
+}
+
+section.banner-text p {
+	width: 80%;
+	font-family: 'Manrope', sans-serif;
+	font-weight: 300;
+	text-align: justify !important;
+	font-size: 24px;
+	line-height: 1.25;
+	padding-top: 15px;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+section.banner-text a {
+	background-color: #000000;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+section.banner-text div.rect {
+	position: absolute;
+	right: 50px;
+	bottom: 0;
+	width: 30px;
+	height: 52.5%;
+	background-color: #000000;
+}
+
+section.banner-text div.rect2 {
+	position: absolute;
+	top: 0;
+	right: 80px;
+	width: 30px;
+	height: 52.5%;
+	background-color: #000000;
+}
+
+section.background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('https://images.pexels.com/photos/1616403/pexels-photo-1616403.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+	-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  	filter: blur(5px);
+  	-webkit-filter: grayscale(50%);
+  	filter: grayscale(50%);
+	background-size: cover;
+	background-position: center;
+	mix-blend-mode: screen;
+	pointer-events: none;
+}

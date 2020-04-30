@@ -1,0 +1,48 @@
+#about img {
+	border-radius: 50%;
+	position: fixed;
+	top: 40%;
+	left: 85%;
+	width: 200px;
+	transform: translate(-50%, -50%);
+}
+
+#about a {
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	border-bottom: 4px solid transparent;
+	transition: border-bottom 0.5s;
+	font-family: 'Manrope', sans-serif;
+   	font-weight: 400;
+}
+
+#about a:hover {
+	border-bottom-color: red;
+}
+
+.my-cv {
+	position: fixed;
+	top: 20%;
+	color: white;
+	font-size: 26px;
+	left: 85%;
+	transform: translate(-50%, 0);
+}
+
+
+
+a.my-github {
+	position: fixed;
+	top: 40%;
+	left: 87%;
+	transform-origin: 100% 0; 
+	transform: rotate(90deg) translate(50%, 0);
+}
+
+a.my-linkedin {
+	position: fixed;
+	bottom: 40%;
+	left: 85%; 
+	transform: rotate(180deg) translate(50%, 0);
+}
