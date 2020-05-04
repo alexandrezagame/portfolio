@@ -3,7 +3,7 @@
 	position: fixed;
 	top: 40%;
 	left: 85%;
-	width: 200px;
+	width: 150px;
 	transform: translate(-50%, -50%);
 }
 
@@ -21,9 +21,9 @@
 	border-bottom-color: red;
 }
 
-.my-cv {
+.my-github {
 	position: fixed;
-	top: 20%;
+	top: 24%;
 	color: white;
 	font-size: 26px;
 	left: 85%;
@@ -32,17 +32,17 @@
 
 
 
-a.my-github {
+a.my-cv {
 	position: fixed;
 	top: 40%;
-	left: 87%;
+	left: 85%;
 	transform-origin: 100% 0; 
 	transform: rotate(90deg) translate(50%, 0);
 }
 
 a.my-linkedin {
 	position: fixed;
-	bottom: 40%;
+	bottom: 44%;
 	left: 85%; 
 	transform: rotate(180deg) translate(50%, 0);
 }

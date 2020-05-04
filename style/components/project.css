@@ -4,11 +4,20 @@ section.sticky-project {
 	top: 0;
 }
 
+section.sticky-project {
+	height: auto;
+}
+
 .projects-section {
-    border: 0px solid #000000;
     padding: 50px;
     background-color: #ffffff;
     width: 78.5%;
+}
+
+.w-100 {
+    width: 100%!important;
+    height: 300px;
+    object-fit: cover;
 }
 
 section.projects {
@@ -26,12 +35,57 @@ section.projects {
 .projects h2 {
    width: 100%; 
    text-align: center; 
-   border-bottom: 1px solid #000; 
+   border-bottom: 0px solid #000 !important; 
    line-height: 0.1em;
    margin: 10px 0 20px; 
    font-family: 'Manrope', sans-serif;
    font-weight: 400;
 } 
+
+.sticky-project.project-intro {
+	padding: 50px 50px 0px 50px !important;
+}
+
+.projects-section.one {
+	border-top: 10px solid red !important;
+}
+
+.projects-section.two {
+	border-top: 10px solid yellow !important;
+}
+
+.projects-section.three {
+	border-top: 10px solid blue !important;
+}
+
+.projects-section.four {
+	border-top: 10px solid green !important;
+}
+
+.text-intro h2 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000 !important; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+   font-family: 'Manrope', sans-serif;
+   font-weight: 400;
+} 
+
+.text-intro {
+	width: 100% !important;
+	/*padding: 25px;*/
+}
+
+.text-intro p {
+	font-family: 'Manrope', sans-serif;
+	font-weight: 300;
+	text-align: justify !important;
+	font-size: 20px;
+	line-height: 1.25;
+	padding-top: 15px;
+	color: #70798C;
+}
 
 .projects h2 span { 
     background:#fff; 
@@ -47,7 +101,7 @@ section.projects {
 
 .projects-text {
 	max-width: 800px;
-    padding-right: 100px;
+    padding-right: 50px;
 }
 
 .projects-text p {
