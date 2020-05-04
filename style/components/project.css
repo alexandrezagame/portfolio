@@ -17,7 +17,8 @@ section.sticky-project {
 .w-100 {
     width: 100%!important;
     height: 300px;
-    object-fit: cover;
+    object-fit: contain;
+    border: 1px solid #6a6b83 !important;
 }
 
 section.projects {
@@ -32,7 +33,7 @@ section.projects.selection {
 }
 
 .project-carousel {
-	width: 70%;
+	width: 80%;
 	background-color: none !important;
 	display: flex;
     align-items: center;
@@ -57,24 +58,24 @@ section.projects.selection {
 }
 
 .projects-section.one {
-	margin-top: 10px;
+	margin-top: 10px !important;
 	border-top: 10px solid #76949f !important;
 }
 
 .projects-section.two {
-	margin-top: 20px;
+	margin-top: 20px !important;
 	border-top: 10px solid #6a6b83 !important;
 }
 
 .projects-section.three {
-	margin-top: 30px;
+	margin-top: 30px !important;
 	border-top: 10px solid #5f506b !important;
 }
 
-.projects-section.four {
+/*.projects-section.four {
 	margin-top: 40px !important;
 	border-top: 10px solid #533747 !important;
-}
+}*/
 
 .text-intro h2 {
    width: 100%; 
@@ -128,8 +129,9 @@ section.projects.selection {
 	color: #70798C;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center !important;
 	position: relative;
+
 }
 
 .projects-text a {
