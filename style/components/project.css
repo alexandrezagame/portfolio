@@ -25,6 +25,12 @@ section.projects {
     flex-direction: row;
 }
 
+section.projects.selection {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+
 .project-carousel {
 	width: 70%;
 	background-color: none !important;
@@ -46,20 +52,28 @@ section.projects {
 	padding: 50px 50px 0px 50px !important;
 }
 
+.projects-section.intro {
+	border-top: 10px solid #86bbbd !important;
+}
+
 .projects-section.one {
-	border-top: 10px solid red !important;
+	margin-top: 10px;
+	border-top: 10px solid #76949f !important;
 }
 
 .projects-section.two {
-	border-top: 10px solid yellow !important;
+	margin-top: 20px;
+	border-top: 10px solid #6a6b83 !important;
 }
 
 .projects-section.three {
-	border-top: 10px solid blue !important;
+	margin-top: 30px;
+	border-top: 10px solid #5f506b !important;
 }
 
 .projects-section.four {
-	border-top: 10px solid green !important;
+	margin-top: 40px !important;
+	border-top: 10px solid #533747 !important;
 }
 
 .text-intro h2 {

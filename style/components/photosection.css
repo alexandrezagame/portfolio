@@ -3,7 +3,7 @@
 	position: fixed;
 	top: 40%;
 	left: 85%;
-	width: 150px;
+	width: 120px;
 	transform: translate(-50%, -50%);
 }
 
@@ -17,13 +17,38 @@
    	font-weight: 400;
 }
 
-#about a:hover {
-	border-bottom-color: red;
+
+#about a:before,
+#about a:after {
+  content: '';
+  height: 3px;
+  background: white;
+  display: block;
+  transition: width 0.3s ease-in-out;
+  margin: 0 auto;
 }
 
-.my-github {
+#about a:before {
+  width: 100%;
+}
+
+#about a:after {
+  width: 0;
+}
+
+#about a:hover:before {
+  width: 0;
+}
+
+#about a:hover:after {
+  width: 100%;
+  background: #533747;
+}
+
+
+a.my-github {
 	position: fixed;
-	top: 24%;
+	top: 25%;
 	color: white;
 	font-size: 26px;
 	left: 85%;
@@ -35,7 +60,7 @@
 a.my-cv {
 	position: fixed;
 	top: 40%;
-	left: 85%;
+	left: 84%;
 	transform-origin: 100% 0; 
 	transform: rotate(90deg) translate(50%, 0);
 }
@@ -44,5 +69,5 @@ a.my-linkedin {
 	position: fixed;
 	bottom: 44%;
 	left: 85%; 
-	transform: rotate(180deg) translate(50%, 0);
+	transform: translate(-50%, 0);
 }

@@ -39,7 +39,7 @@ section.banner-text p {
 	line-height: 1.25;
 	padding-top: 15px;
 	background-color: #ffffff;
-	color: #000000;
+	color: grey;
 }
 
 section.banner-text a {
@@ -50,18 +50,18 @@ section.banner-text a {
 
 section.banner-text div.rect {
 	position: absolute;
-	right: 50px;
+	right: 30px;
 	bottom: 0;
-	width: 30px;
-	height: 52.5%;
+	width: 10px;
+	height: 80%;
 	background-color: #000000;
 }
 
 section.banner-text div.rect2 {
 	position: absolute;
 	top: 0;
-	right: 80px;
-	width: 30px;
-	height: 52.5%;
+	right: 50px;
+	width: 10px;
+	height: 80%;
 	background-color: #000000;
 }
