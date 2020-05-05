@@ -2,12 +2,12 @@
 
 #hi-magnifier {
   font-family: Fira Sans;
-  font-size: 80px;
+  font-size: 100px;
   line-height: 100px;
   text-align: center;
 
-  background-color: white;
-  color: blue;
+  background-color: black;
+  color: #4CB5AE;
 
   min-height: 100vh;
 
@@ -30,5 +30,5 @@ section.hi-there {
 div.hi-message {
   font-weight: 100;
   transform: scale(0.2);
-  transition: transform 0.2s;
+  transition: transform 0.1s;
 }
