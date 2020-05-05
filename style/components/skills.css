@@ -1,7 +1,70 @@
 .skills-section {
-	width: 80%;
-	padding: 25px 50px 0px 50px;
+	width: 95vw;
+	padding: 25px 50px 25px 50px;
 }
+
+@media screen and (max-width: 1024px) {
+  section.skills {
+    width: 100vw !important;
+    height: auto !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  section.banner-text-skills {
+    padding: 5px !important;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  div.skills-section {
+    height: auto !important;
+    width: 100vw !important;
+    padding: 5px 0 !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  div.skills-list h4 {
+    font-size: 16px;
+    height: auto !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  div.skills-list ul {
+    width: auto !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  div.skills-list h4 {
+    width: 48vw;
+    height: auto !important;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  div.skills-text{
+    width: 80vw;
+    height: auto !important;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  div.skills-text p{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  div.skills-text span{
+    padding-top: : 15px !important;
+  }
+}
+
 
 section.banner-text-skills {
 	border: 0px solid #000000;
@@ -80,7 +143,6 @@ h4 span {
 	padding-top: 15px;
 	color: #70798C;
 	display: flex;
-	justify-content: center;
 	align-items: center;
 	position: relative;
 }

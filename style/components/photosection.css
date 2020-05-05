@@ -1,16 +1,16 @@
-#about img {
+/*.banner-section img {
 	border-radius: 50%;
-	position: fixed;
-	top: 40%;
-	left: 85%;
+	position: relative;
+	top: 150px;
+	left: 80%;
 	width: 120px;
 	transform: translate(-50%, -50%);
-}
+}*/
 
 #about a {
 	color: white;
 	text-decoration: none;
-	font-size: 24px;
+	font-size: 20px;
 	border-bottom: 4px solid transparent;
 	transition: border-bottom 0.5s;
 	font-family: 'Manrope', sans-serif;
@@ -48,11 +48,10 @@
 
 a.my-github {
 	position: fixed;
-	top: 25%;
-	color: white;
-	font-size: 26px;
-	left: 85%;
-	transform: translate(-50%, 0);
+	top: 20%;
+	left: 93.5%;
+	transform-origin: 100% 0; 
+	transform: rotate(90deg) translate(50%, 0);
 }
 
 
@@ -60,19 +59,38 @@ a.my-github {
 a.my-cv {
 	position: fixed;
 	top: 40%;
-	left: 84%;
+	left: 91%;
 	transform-origin: 100% 0; 
 	transform: rotate(90deg) translate(50%, 0);
 }
 
 a.my-linkedin {
 	position: fixed;
-	bottom: 44%;
-	left: 85%; 
-	transform: translate(-50%, 0);
+	top: 60%;
+	left: 93%;
+	transform-origin: 100% 0; 
+	transform: rotate(90deg) translate(50%, 0);
 }
 
-.color-changer {
+@media screen and (max-width: 1024px) {
+  a.my-linkedin {
+    display:none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  a.my-cv {
+    display:none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  a.my-github {
+    display:none;
+  }
+}
+
+/*.color-changer {
 	position: fixed;
 	bottom: 24px;
 	right: 50px;
@@ -88,4 +106,4 @@ a.my-linkedin {
 	width: 100%;
 	height: 100%;
 	opacity: 0;
-}
+}*/

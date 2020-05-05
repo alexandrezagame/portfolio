@@ -1,10 +1,36 @@
 .banner-section {
-	width: 80%;
+	width: 95vw !important;
 	padding: 50px 50px 25px 50px;
 }
 
+@media screen and (max-width: 1024px) {
+  div.banner-section {
+    width: 100vw !important;
+    height: auto !important;
+    padding: 5px 0 !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  section.banner-text {
+    padding: 10px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  section.banner-text h2 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  section.banner-text p {
+    font-size: 16px !important;
+  }
+}
+
 .banner-text h2 {
-   width: 80%; 
+   /*width: 80%; */
    text-align: center; 
    border-bottom: 1px solid #000; 
    line-height: 0.1em;
@@ -18,27 +44,21 @@
     padding:0 10px; 
 }
 
-.banner-text {
-	/*border-top-width: 50px !important;*/
-	/*border-bottom-width: 50px !important;*/
-}
-
 section.banner-text {
 	border: 0px solid #000000;
 	padding: 50px;
 	background-color: #ffffff;
-	position: relative;
+	height: auto;
 }
 
 section.banner-text p {
-	width: 80%;
+	width: 100%;
 	font-family: 'Manrope', sans-serif;
 	font-weight: 300;
 	text-align: justify !important;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 1.25;
 	padding-top: 15px;
-	/*background-color: #ffffff;*/
 	color: black;
 }
 
@@ -48,7 +68,7 @@ section.banner-text a {
 	text-decoration: none;
 }
 
-section.banner-text div.rect {
+/*section.banner-text div.rect {
 	position: absolute;
 	right: 30px;
 	bottom: 0;
@@ -64,4 +84,4 @@ section.banner-text div.rect2 {
 	width: 10px;
 	height: 80%;
 	background-color: #000000;
-}
+}*/
