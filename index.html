@@ -7,6 +7,7 @@
     <title>Alexandre Zagame Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/index.css">
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
@@ -48,6 +49,72 @@
         </div>
     </div>   
 
+<!-- test -->
+
+<section id="hi-magnifier">
+<section class="hi-there">
+    <div class="hi-message">H</div>
+    <div class="hi-message">E</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">O</div>
+    <div class="hi-message">H</div>
+    <div class="hi-message">E</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">O</div>
+    <div class="hi-message">H</div>
+    <div class="hi-message">E</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">O</div>
+    <div class="hi-message">H</div>
+    <div class="hi-message">E</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">O</div>
+    <div class="hi-message">H</div>
+    <div class="hi-message">E</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">O</div>
+    <div class="hi-message">H</div>
+    <div class="hi-message">E</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">O</div>
+    <div class="hi-message">H</div>
+    <div class="hi-message">E</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">O</div>
+    <div class="hi-message">H</div>
+    <div class="hi-message">E</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">O</div>
+    <div class="hi-message">H</div>
+    <div class="hi-message">E</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">O</div>
+    <div class="hi-message">H</div>
+    <div class="hi-message">E</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">O</div>
+    <div class="hi-message">H</div>
+    <div class="hi-message">E</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">O</div>
+    <div class="hi-message">H</div>
+    <div class="hi-message">E</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">L</div>
+    <div class="hi-message">O</div>
+</section>
+</section>
     <!-- banner -->
     <div class="banner-section">
         <section class="banner-text">      
@@ -106,6 +173,8 @@
     </div>
 </section>
 
+
+
 <!-- projects -->
 <section id="projects-part">
 
@@ -123,7 +192,6 @@
             </section>         
         </div>
     </section>
-
 
     <section class="sticky-project project1">
         <div class="projects-section one">
@@ -285,11 +353,25 @@
         A member of <a href="https://github.com/alexandrezagamehttps://github.com/FAR-Fullstack" target="_blank">F.A.R.</a>
     </div>
 </div>
+
     <!-- script -->
 <script>
-(document).ready(function(){
-  // Activate Carousel
-  (".carousel").carousel("pause");
+  
+  document.addEventListener("mousemove", function(event) {
+  const x = event.pageX;
+  const y = event.pageY;
+
+  document.querySelectorAll(".hi-message").forEach(div => {
+    const dx = div.offsetLeft + 50 - x;
+    const dy = div.offsetTop + 50 - y;
+    const dist = Math.sqrt(dx * dx + dy * dy);
+    const score = Math.exp(dist * -0.005);
+
+    div.style.transform = "scale(" + score + ")";
+    div.style.fontWeight = 100 + 100 * Math.round(8 * score);
+  })
+})
+
 </script>
 
 <!-- <script>

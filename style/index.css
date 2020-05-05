@@ -6,6 +6,7 @@
 @import "components/skills.css";
 @import "components/background.css";
 @import "components/wrapper.css";
+@import "components/magnifier.css";
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
 
@@ -18,3 +19,4 @@
 body.dark {
 	color: #ffffff;
 }*/
+

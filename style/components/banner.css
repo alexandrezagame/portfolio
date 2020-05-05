@@ -37,11 +37,13 @@
    margin: 10px 0 20px; 
    font-family: 'Manrope', sans-serif;
    font-weight: 400;
+   color: #4CB5AE;
 } 
 
 .banner-text h2 span { 
     background:#fff; 
     padding:0 10px; 
+    color: #4CB5AE;
 }
 
 section.banner-text {
@@ -59,7 +61,6 @@ section.banner-text p {
 	font-size: 20px;
 	line-height: 1.25;
 	padding-top: 15px;
-	color: black;
 }
 
 section.banner-text a {

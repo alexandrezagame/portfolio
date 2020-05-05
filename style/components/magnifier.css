@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#hi-magnifier {
+  font-family: Fira Sans;
+  font-size: 80px;
+  line-height: 100px;
+  text-align: center;
+
+  background-color: white;
+  color: blue;
+
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100vw !important;
+  height: auto;
+
+}
+
+section.hi-there {
+  width: 1200px;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: 100px;
+}
+
+div.hi-message {
+  font-weight: 100;
+  transform: scale(0.2);
+  transition: transform 0.2s;
+}
