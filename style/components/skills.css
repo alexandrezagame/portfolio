@@ -68,22 +68,20 @@
 
 section.banner-text-skills {
 	border: 0px solid #000000;
-	padding: 50px;
-	background-color: #ffffff;
-	/*position: relative;*/
+	padding: 25px;
+	background-color: #6a6b83;
 	display: flex;
-    flex-direction: row;
-    border-top: 0;
-    /*border-bottom: 30px;*/
+  flex-direction: row;
+  border-top: 0;
 }
 
 .skills-list {
-	border: 5px solid #000000;
+	border: 1px solid white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: #000000;
-	color: #ffffff;
+	color: white;
 	text-decoration: none;
 	position: relative;
 }
@@ -100,65 +98,56 @@ span {
 	padding: 0 15px;
 }
 
-h2 {
+.skills-text h2 {
    width: 100%; 
    text-align: center; 
-   border-bottom: 1px solid #000; 
+   border-bottom: 1px solid white; 
    line-height: 0.1em;
    margin: 10px 0 20px; 
 } 
 
-h2 span { 
-    background:#fff; 
+.skills-text h2 span { 
+    background:#6a6b83; 
     padding:0 10px; 
-    color: #4CB5AE;
+    color: white;
 }
 
-
-h4 {
+.skills-list h4 {
    width: 100%; 
    text-align: center; 
-   border-bottom: 2px solid #fff; 
-   line-height: 0.1em;
+   border-bottom: 2px solid white; 
    margin: 30px 0 20px; 
-   font-family: 'Manrope', sans-serif;
-   font-weight: 300;
 } 
 
-h4 span { 
+.skills-list h4 span { 
     background:#000; 
     padding:0 4px; 
 }
 
 .skills-text {
-	/*max-width: 800px;*/
-    padding-left: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .skills-text p {
-	font-family: 'Manrope', sans-serif;
-	font-weight: 300;
 	text-align: justify !important;
-	font-size: 20px;
-	line-height: 1.25;
 	padding-top: 15px;
-	color: #70798C;
+	color: white;
 	display: flex;
 	align-items: center;
 	position: relative;
 }
 
-section.banner-text-skills a {
+/*section.banner-text-skills a {
 	background-color: #000000;
 	color: #ffffff;
 	text-decoration: none;
-}
+}*/
 
-section.banner-text-skills div.rect {
+/*section.banner-text-skills div.rect {
 	position: absolute;
 	right: 50px;
 	bottom: 0;
 	width: 30px;
 	height: 52.5%;
-	background-color: #000000;
-}
+}*/

@@ -1,6 +1,7 @@
 .banner-section {
 	width: 90vw !important;
-	padding: 50px 50px 25px 50px;
+	padding: 25px 50px 25px 50px;
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -26,63 +27,33 @@
 @media screen and (max-width: 1024px) {
   section.banner-text p {
     font-size: 16px !important;
+    padding: 15px 10px 0 10px !important;
   }
 }
 
 .banner-text h2 {
-   /*width: 80%; */
    text-align: center; 
-   border-bottom: 1px solid #000; 
-   line-height: 0.1em;
+   border-bottom: 1px solid white; 
    margin: 10px 0 20px; 
-   font-family: 'Manrope', sans-serif;
-   font-weight: 400;
-   color: #4CB5AE;
+   color: white;
 } 
 
 .banner-text h2 span { 
-    background:#fff; 
+    background: black; 
     padding:0 10px; 
-    color: #4CB5AE;
+    color: white;
 }
 
 section.banner-text {
 	border: 0px solid #000000;
-	padding: 50px;
-	background-color: #ffffff;
+	padding: 25px 50px 25px 50px;
+	background-color: black;
 	height: auto;
 }
 
 section.banner-text p {
 	width: 100%;
-	font-family: 'Manrope', sans-serif;
-	font-weight: 300;
 	text-align: justify !important;
-	font-size: 20px;
-	line-height: 1.25;
-	padding-top: 15px;
+	padding: 15px 70px 0 70px;
+	color: white;
 }
-
-section.banner-text a {
-	background-color: #000000;
-	color: #ffffff;
-	text-decoration: none;
-}
-
-/*section.banner-text div.rect {
-	position: absolute;
-	right: 30px;
-	bottom: 0;
-	width: 10px;
-	height: 80%;
-	background-color: #000000;
-}
-
-section.banner-text div.rect2 {
-	position: absolute;
-	top: 0;
-	right: 50px;
-	width: 10px;
-	height: 80%;
-	background-color: #000000;
-}*/

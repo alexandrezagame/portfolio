@@ -19,6 +19,7 @@ section.projects {
     display: flex;
     flex-direction: row;
     height: 400px;
+    padding: 25px 50px 25px 50px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -148,10 +149,7 @@ section.projects {
 .projects h2 {
    text-align: center; 
    border-bottom: 0px solid #000 !important; 
-   line-height: 0.1em;
    margin: 10px 0 20px; 
-   font-family: 'Manrope', sans-serif;
-   font-weight: 400;
 } 
 
 .text-intro {
@@ -162,24 +160,15 @@ section.projects {
    padding-top: 15px;
    text-align: center; 
    border-bottom: 1px solid #000 !important; 
-   line-height: 0.1em;
-   font-family: 'Manrope', sans-serif;
-   font-weight: 400;
 } 
 
 .projects h2 span { 
     background:#fff; 
-    font-family: 'Manrope', sans-serif;
-    font-weight: 400;
 }
 
 .text-intro p {
-	font-family: 'Manrope', sans-serif;
-	font-weight: 300;
 	text-align: justify !important;
-	font-size: 20px;
-	line-height: 1.25;
-	padding: 15px 20px 15px 20px;
+	padding: 15px 20px 10px 20px;
 	color: #70798C;
 }
 
@@ -195,11 +184,7 @@ section.projects {
 }
 
 .projects-text p {
-	font-family: 'Manrope', sans-serif;
-	font-weight: 300;
 	text-align: justify !important;
-	font-size: 20px;
-	line-height: 1.25;
 	padding: 15px 20px 15px 20px;
 	color: #70798C;
 	display: flex;
@@ -212,6 +197,4 @@ section.projects {
 .projects-text a {
 	color: black;
 	text-decoration: none;
-	font-family: 'Manrope', sans-serif;
-    font-weight: 400;
 }
