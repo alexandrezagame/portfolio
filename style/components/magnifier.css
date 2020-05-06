@@ -3,7 +3,7 @@
 #hi-magnifier {
   font-family: Fira Sans;
   font-size: 100px;
-  line-height: 100px;
+  line-height: 80px;
   text-align: center;
 
   background-color: black;
@@ -28,7 +28,24 @@ section.hi-there {
 }
 
 div.hi-message {
-  font-weight: 100;
+  font-weight: 300;
   transform: scale(0.2);
   transition: transform 0.1s;
+}
+
+
+@media screen and (max-width: 1024px) {
+  #hi-magnifier {
+    width: 100vw !important;
+    padding: 10px !important;
+    margin: 0 !important;
+    font-size: 50px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  section.hi-there {
+    grid-template-columns: repeat(4, 1fr) !important;
+    grid-auto-rows: 50px;
+  }
 }

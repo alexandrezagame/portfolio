@@ -1,29 +1,52 @@
-section.future-projects {
+/*section.future-projects {
 	width: 90vw;
 	padding: 25px 50px 25px 50px;
-}
+}*/
 
 .future-projects-card {
 	background-color: white;
 	padding: 25px;
-
+	color: black;
+	position: relative;
 }
 
+.future-projects-card.dark {
+	color: #ffffff;
+}
 
 .future-intro h2 {
 	/*font-family: 'Lobster', cursive;*/
+	font-size: 36px !important;
 	padding: 20px 50px 20px 50px;
 	font-family: 'Cedarville Cursive', cursive;
 }
 
 .future-intro p {
-	padding: 20px 50px 20px 50px;
+	padding: 10px 50px 20px 50px;
+	font-family: 'Manrope', sans-serif !important;
+	font-size: 20px !important;
+	font-weight: 300 !important;
+	line-height: 1.25 !important;
 }
 
 @media screen and (max-width: 1024px) {
-  section.future-projects {
+  .future-projects-card {
     width: 100vw !important;
     height: auto !important;
     padding: 0 !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .future-intro p {
+    font-size: 16px !important;
+    padding: 10px 10px 10px 10px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .future-intro h2{
+    font-size: 24px !important;
+    padding: 10px 10px 10px 10px !important;
   }
 }

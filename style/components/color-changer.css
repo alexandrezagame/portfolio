@@ -1,0 +1,21 @@
+.color-changer {
+	position: relative;
+	padding: 2px;
+	height: 40px;
+	width: 50px;
+	justify-content: center;
+/*	display: flex;
+    justify-content: center;
+    align-content: center;*/
+}
+
+.color-changer input {
+position: absolute;
+    top: -21px;
+    left: 50px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    border: 2px solid #340068;
+	border-radius: 5px;
+}

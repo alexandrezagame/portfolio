@@ -48,7 +48,7 @@
 
 a.my-github {
 	position: fixed;
-	top: 20%;
+	top: 25%;
 	right: 5%;
 	transform-origin: 100% 0; 
 	transform: rotate(90deg) translate(50%, 0);
@@ -58,7 +58,7 @@ a.my-github {
 
 a.my-cv {
 	position: fixed;
-	top: 40%;
+	top: 45%;
 	right: 5%;
 	transform-origin: 100% 0; 
 	transform: rotate(90deg) translate(50%, 0);
@@ -66,7 +66,7 @@ a.my-cv {
 
 a.my-linkedin {
 	position: fixed;
-	top: 60%;
+	top: 65%;
 	right: 5%;
 	transform-origin: 100% 0; 
 	transform: rotate(90deg) translate(50%, 0);
@@ -89,21 +89,3 @@ a.my-linkedin {
     display:none;
   }
 }
-
-/*.color-changer {
-	position: fixed;
-	bottom: 24px;
-	right: 50px;
-	padding: 8px 16px;
-	border: 1px solid black;
-	border-radius: 50px;
-}
-
-.color-changer input {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	opacity: 0;
-}*/

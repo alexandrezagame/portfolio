@@ -4,7 +4,7 @@
 
 section.sticky-project {
 	position: sticky;
-	top: 10vh;
+	top: 25vh;
 }
 
 section.sticky-project {
@@ -31,6 +31,7 @@ section.projects {
 @media screen and (max-width: 1024px) {
   div.projects-text p {
     width: 90vw !important;
+    padding: 15px;
   }
 }
 
@@ -76,6 +77,13 @@ section.projects {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  div.projects-section.four {
+    margin-left: 0 !important;
+    height: auto !important;
+  }
+}
+
 .sticky-project.project-intro {
 	width: 90vw;
 	padding: 25px 50px 25px 50px;
@@ -106,19 +114,6 @@ section.projects {
 	border-left: 10px solid #6a6b83 !important;
 }
 
-/*@media screen and (max-width: 1024px) {
-  section.projects-section.two {
-    width: 100vw !important;
-    position: static;
-    height: auto !important;
-    padding: 5px 0 !important;
-    margin: 0 !important;
-    border: 0 !important;
-  }
-}
-*/
-
-
 .sticky-project.project3 {
 	width: 90vw;
 	padding: 25px 50px 25px 50px;
@@ -128,7 +123,15 @@ section.projects {
 	border-left: 10px solid #5f506b !important;
 }
 
-
+.sticky-project.project4 {
+  width: 90vw;
+  padding: 25px 50px 25px 50px;
+  top:0;
+}
+.projects-section.four {
+  margin-left: 40px !important;
+  border-left: 10px solid #340068 !important;
+}
 
 .project-carousel {
 	width: 50% !important;
