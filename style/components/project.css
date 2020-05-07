@@ -4,7 +4,7 @@
 
 section.sticky-project {
 	position: sticky;
-	top: 25vh;
+	top: 20vh;
 }
 
 section.sticky-project {
@@ -18,8 +18,8 @@ section.sticky-project {
 section.projects {
     display: flex;
     flex-direction: row;
-    height: 400px;
-    padding: 25px 50px 25px 50px;
+    height: 450px;
+    padding: 25px 30px 25px 20px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -188,13 +188,12 @@ section.projects {
 
 .projects-text p {
 	text-align: justify !important;
-	padding: 15px 20px 15px 20px;
+	padding: 15px 20px 15px 10px;
 	color: #70798C;
 	display: flex;
 	justify-content: center;
 	align-items: center !important;
 	position: relative;
-
 }
 
 .projects-text a {

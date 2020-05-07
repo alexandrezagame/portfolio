@@ -232,6 +232,9 @@
                     <p>
                     <a href="http://www.primetimefr.com" target="_blank">www.primetimefr.com</a>
                     </p>
+                    <code>
+                    Ruby on Rails, CSS, HTML, JS, Cloudinary, Heroku
+                    </code>
                 </div>               
                 <div class="project-carousel">
                     <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
@@ -276,6 +279,9 @@
                 <p>
                 <a href="http://www.fleapit.net/" target="_blank">www.fleapit.net</a>
                 </p>
+                <code>
+                Ruby on Rails, SCSS, HTML, JS, Cloudinary, Heroku
+                </code>
             </div>               
             <div class="project-carousel">
                 <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
@@ -332,6 +338,9 @@
                     <p>
                     <a href="https://flowerfriend.herokuapp.com/" target="_blank">FlowerFriend</a>
                     </p>
+                    <code>
+                    Ruby on Rails, CSS, HTML, JS, MapBox, Cloudinary, Heroku
+                    </code>
                 </div>               
                 <div class="project-carousel">
                     <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
@@ -415,20 +424,59 @@
 
 <!-- future projects  -->
 
-<!-- <section class="future-projects">
-    <div class="future-projects-card">
-        <div class="future-intro">
-            <h2>Your project here...</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <div class="color-changer">
-                Your brand identity is always my priority. Click here and change the color to match you brand.
-                <input type="color">
+<section class="extra-projects">
+    <div class="side-project-card">
+        <div class="card-product">
+            <div class="project-image">
+            <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+            </div>
+            <div class="card-product-infos">
+                <h2>Twitter Bot</h2>
+                <code>
+                <div id="overflowTest">
+                require "twitter" <br>
+                require "http"<br>
+                require "nokogiri"<br>
+                <br>
+                twitter = Twitter::REST::Client.new do |config| <br>
+                  config.consumer_key        = "your-consumer-key" <br>
+                  config.consumer_secret     = "your-consumer-secret" <br>
+                  config.access_token        = "your-access-token" <br>
+                  config.access_token_secret = "your-access-token-secret" <br>
+                end <br>
+                <br>
+                latest_tweets = twitter.user_timeline("your-twitter-account") <br>
+                <br>
+                previous_links = latest_tweets.map do |tweet| <br>
+                    if tweet.urls.nil? <br>
+                        tweet.urls[0].expanded_url <br>
+                    end <br>
+                end <br>
+                <br>
+                rss = HTTP.get("https://www.treehugger.com/feeds/latest/") <br>
+                doc = Nokogiri::XML(rss) <br>
+                <br>
+                doc.css("item").take(3).each do |item| <br>
+                    title = item.css("title").text <br>
+                    link = item.css("description").text <br>
+                    <br>
+                    unless link.start_with?("http") <br>
+                        link = item.css("link").text <br>
+                    end <br>
+                    <br>
+                    unless previous_links.include?(link) <br>
+                        twitter.update("#{title} #{link}") <br>
+                    end <br>
+                end
+                </div>
+                </code>               
             </div>
         </div>
+        <!-- <div class="side-project two">
+            hi there
+        </div> -->
     </div>
-</section> -->
+</section>
 
 
 
@@ -484,8 +532,19 @@ changer.addEventListener("input", function() {
         bodyTag.classList.remove("dark");
     }
 })
-
 </script>
+
+<!-- <script>  
+var myCustomScrollbar = document.querySelector('.my-custom-scrollbar');
+var ps = new PerfectScrollbar(myCustomScrollbar);
+
+var scrollbarY = myCustomScrollbar.querySelector('.ps__rail-y');
+
+myCustomScrollbar.onscroll = function () {
+  scrollbarY.style.cssText = `top: ${this.scrollTop}px!important; height: 400px; right: ${-this.scrollLeft}px`;
+}
+</script> -->
+
 
 </body>
 

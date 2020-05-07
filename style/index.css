@@ -9,6 +9,8 @@
 @import "components/magnifier.css";
 @import "components/future-projects.css";
 @import "components/color-changer.css";
+@import "components/side-project.css";
+@import "components/scrollbar.css";
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
 
@@ -25,7 +27,7 @@ body.dark {
 
 p {
 	font-family: 'Manrope', sans-serif !important;
-	font-size: 20px !important;
+	font-size: 18px !important;
 	font-weight: 300 !important;
 	line-height: 1.25 !important;
 }
@@ -40,6 +42,14 @@ h4 {
 	font-family: 'Manrope', sans-serif;
    	font-weight: 300;
    	line-height: 0.1em;
+}
+
+code {
+  text-align: justify !important;
+  padding: 15px 20px 15px 10px;
+  color: grey;
+  font-size: 14px;
+  font-family: monospace;
 }
 
 a {
