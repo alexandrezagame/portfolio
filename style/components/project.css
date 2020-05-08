@@ -134,11 +134,11 @@ section.projects {
 }
 
 .project-carousel {
-	width: 50% !important;
+	width: 60% !important;
+  height: 450px !important;
 	background-color: none !important;
 	display: flex;
-    align-items: center;
-    margin: 5px;
+  align-items: center;
 }
 
 .w-100 {
@@ -199,4 +199,17 @@ section.projects {
 .projects-text a {
 	color: black;
 	text-decoration: none;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+/*  width: 200px;
+  height: 200px;*/
+  /*margin: 0 auto;*/
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+/*  padding: 50px;
+  margin: 50px;*/
 }
