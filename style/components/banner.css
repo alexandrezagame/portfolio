@@ -1,5 +1,6 @@
 .banner-section {
-	width: 90vw !important;
+	/*width: 100vw !important;*/
+  margin: 0 50px;
 	padding: 25px 50px 25px 50px;
 
 }

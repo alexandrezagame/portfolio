@@ -1,6 +1,7 @@
 .skills-section {
-	width: 90vw;
+	/*width: 100vw;*/
 	padding: 25px 50px 25px 50px;
+  margin: 0 50px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -130,8 +131,8 @@ span {
 }
 
 .skills-text p {
-	text-align: justify !important;
-	padding-top: 15px;
+	text-align: center !important;
+	padding-top: 25px;
 	color: white;
 	display: flex;
 	align-items: center;
