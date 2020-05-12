@@ -4,11 +4,15 @@ section.background {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #001f54;
+	background-color: #2728E5;
 	/*background-image: url('https://images.pexels.com/photos/8892/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');*/
 
 	background-size: cover;
 	background-position: center;
 	mix-blend-mode: screen;
 	pointer-events: none;
+}
+
+.wrapper {
+	max-width: 100vw !important;
 }

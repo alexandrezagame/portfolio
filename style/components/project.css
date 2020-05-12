@@ -4,7 +4,7 @@
 
 section.sticky-project {
 	position: sticky;
-	top: 20vh;
+	top: 0vh;
 }
 
 section.sticky-project {
@@ -25,12 +25,19 @@ section.projects {
 @media screen and (max-width: 1024px) {
   section.projects {
     height: auto !important;
+    margin: 0 !important;
   }
 }
 
 @media screen and (max-width: 1024px) {
   div.projects-text p {
     width: 90vw !important;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  div.text-intro p {
     padding: 15px;
   }
 }
@@ -53,6 +60,7 @@ section.projects {
     position: static;
     height: auto !important;
     padding: 5px 0 !important;
+    margin: 0 !important;
   }
 }
 

@@ -1,9 +1,120 @@
-section.extra-projects {
+#side-projects {
+  width: 100vw;
+    padding: 25px 50px 25px 50px;
+}
+
+section.intro {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+    margin: 0 50px 0 50px !important;
+
+}
+
+section.intro:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.text {
+  width: 50%;
+  padding: 30px 80px;
+  text-align: justify;
+}
+
+.text h2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.full-image {
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.full-image.image2 {
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.full-image.image1 {
+  background-image: url("https://images.pexels.com/photos/58639/pexels-photo-58639.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  width: 50%;
+}
+
+.full-image.image2 {
+  background-image: url("https://images.pexels.com/photos/22185/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  width: 50%;
+}
+
+.full-image.image3 {
+  background-image: url("https://miro.medium.com/max/1400/0*UzZve3Ep15JV7Vza");
+  width: 50%;
+}
+
+.pick-a-side button {
+  background-color: blue;
+  color: white;
+}
+
+@media (max-width: 815px) {
+  body {
+    font-size: 16px !important;
+    margin: 0 !important;
+  }
+
+  .text h2 {
+    font-size: 24px !important;
+  }
+
+  section.intro {
+    display: block;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  #side-projects {
+    padding: 10px !important;
+    margin: 0 !important;
+  }
+
+  .text {
+    width: 100% !important;
+    padding: 30px;
+    margin: 0 !important;
+  }
+
+  .image1 {
+    height: 100vw !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .image2 {
+    height: 100vw !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .image3 {
+    height: 100vw !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+}
+
+/*section.extra-projects {
 	background-color: white;
 }
 
 .side-project-card {
-	/*width: 90vw !important;*/
 	background-color: white;
 }
 
@@ -17,8 +128,6 @@ section.extra-projects {
 
 .card-product {
   overflow: hidden;
-  /*height: 250px;*/
-  /*background: white;*/
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
@@ -47,3 +156,4 @@ section.extra-projects {
 .card-product .card-product-infos {
   padding: 16px;
 }
+*/
