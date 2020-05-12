@@ -70,7 +70,7 @@
 section.banner-text-skills {
 	border: 0px solid #000000;
 	padding: 25px;
-	background-color: #6a6b83;
+	/*background-color: #6a6b83;*/
 	display: flex;
   flex-direction: row;
   border-top: 0;
@@ -108,7 +108,7 @@ span {
 } 
 
 .skills-text h2 span { 
-    background:#6a6b83; 
+    background: black; 
     padding:0 10px; 
     color: white;
 }

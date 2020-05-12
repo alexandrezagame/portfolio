@@ -7,7 +7,7 @@
   text-align: center;
 
   background-color: black;
-  color: white;
+  color: #96FFCA;
 
   min-height: 100vh;
 
@@ -29,7 +29,7 @@ section.hi-there {
 
 div.hi-message {
   font-weight: 300;
-  transform: scale(0.2);
+  transform: scale(0.3);
   transition: transform 0.1s;
 }
 

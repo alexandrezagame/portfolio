@@ -11,6 +11,7 @@
 @import "components/color-changer.css";
 @import "components/side-project.css";
 @import "components/scrollbar.css";
+@import "components/parallax.css";
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
 
@@ -36,6 +37,7 @@ h2 {
 	font-family: 'Manrope', sans-serif;
    	font-weight: 400;
    	line-height: 0.1em;
+   	color: black;
 }
 
 h4 {

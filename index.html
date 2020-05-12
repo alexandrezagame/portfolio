@@ -24,17 +24,23 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     
 </head>
 
 <body>
 <div class="wrapper">
+
+    <!-- background -->
+    <section class="background"></section>
+
     <!-- Navbar -->
     <div class="navbar-section">
         <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-            <a class="navbar-brand" href="#">
+            
                 <h3>AZ</h3>
-            </a>
+            
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -58,7 +64,7 @@
         </div>
     </div>   
 
-<!-- test -->
+<!-- magnifier section -->
 
 <section id="hi-magnifier">
 <section class="hi-there">
@@ -136,6 +142,27 @@
     <div class="hi-message">I</div>
 </section>
 </section>
+
+
+
+<!-- <div class="parallax">
+    <div class="box box-1">
+        1
+    </div>
+    <div class="box box-2">
+        2
+    </div>
+    <div class="box box-3">
+        3
+    </div>
+    <div class="box box-4">
+        4
+    </div>
+    <div class="box box-5">
+        5
+    </div>
+</div> -->
+
     <!-- banner -->
     <div class="banner-section">
         <section class="banner-text">      
@@ -170,6 +197,9 @@
 
     <!-- Skills -->
 <section id="skills">
+
+
+<section class="content"></section>
     <div class="skills-section">
         <section class="banner-text-skills">  
             <div class="skills-list">
@@ -181,7 +211,7 @@
                     <h4><span>Project Design</span></h4>  
                     <h4><span>Project Management</span></h4>  
                 </ul>
-                <section class="background"></section>
+            <section class="background"></section>
             </div>
             <div class="skills-text">
                 <h2><span>Skills</span></h2>
@@ -503,9 +533,6 @@
                 </code>               
             </div>
         </div>
-        <!-- <div class="side-project two">
-            hi there
-        </div> -->
     </div>
 </section> -->
 
@@ -527,7 +554,7 @@
         </div>
     </div>
 
-    <!-- script -->
+<!-- magnifier script -->
 <script>
   
   document.addEventListener("mousemove", function(event) {
@@ -547,6 +574,7 @@
 
 </script>
 
+<!-- color changer script -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"></script>
 <script>
 const changer = document.querySelector("div.color-changer input");
@@ -565,16 +593,7 @@ changer.addEventListener("input", function() {
 })
 </script>
 
-<!-- <script>  
-var myCustomScrollbar = document.querySelector('.my-custom-scrollbar');
-var ps = new PerfectScrollbar(myCustomScrollbar);
 
-var scrollbarY = myCustomScrollbar.querySelector('.ps__rail-y');
-
-myCustomScrollbar.onscroll = function () {
-  scrollbarY.style.cssText = `top: ${this.scrollTop}px!important; height: 400px; right: ${-this.scrollLeft}px`;
-}
-</script> -->
 
 
 </body>
