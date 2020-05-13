@@ -22,22 +22,24 @@ section.intro:nth-child(odd) {
 
 .text {
   width: 50%;
-  padding: 30px 80px;
+  padding: 30px 60px;
   text-align: justify;
+  align-items: center;
 }
 
 .text h2 {
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 
 .full-image {
-  height: auto;
+  min-height: 500px;
   background-size: cover;
   background-position: center;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
+
 }
 
 .full-image.image2 {
