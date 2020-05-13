@@ -20,7 +20,7 @@ section.projects {
     display: flex;
     flex-direction: row;
     height: 450px;
-    padding: 25px 30px 25px 20px;
+    padding: 25px 0px 25px 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -151,18 +151,18 @@ section.projects {
 
 .project-carousel {
 	width: 60% !important;
-  height: 450px !important;
+  /*height: 450px !important;*/
 	background-color: none !important;
 	display: flex;
   align-items: center;
 }
 
 .w-100 {
-    max-width: 100% !important;
-    height: 350px;
+    /*max-width: 100% !important;*/
+    height: 450px;
     object-fit: contain;
-    border: 1px solid #DADADA !important;
-    padding: 5px;
+    /*border: 1px solid #DADADA !important;*/
+    /*padding: 5px;*/
 }
 
 .projects h2 {
@@ -187,7 +187,7 @@ section.projects {
 
 .text-intro p {
 	text-align: justify !important;
-	padding: 35px 40px 10px 40px;
+	padding: 35px 100px 10px 100px;
 	color: #70798C;
   text-align: center !important;
 }
