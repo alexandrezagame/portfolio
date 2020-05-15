@@ -65,7 +65,7 @@ section.projects {
     width: 100vw !important;
     position: static;
     height: auto !important;
-    padding: 5px 0 !important;
+    padding: 15px 0 !important;
     margin: 0 !important;
   }
 }
@@ -192,7 +192,7 @@ section.projects {
 .text-intro p {
 	text-align: justify !important;
 	padding: 35px 100px 10px 100px;
-	color: #70798C;
+	color: black;
   text-align: center !important;
 }
 
@@ -210,7 +210,7 @@ section.projects {
 .projects-text p {
 	text-align: justify !important;
 	padding: 15px 20px 15px 10px;
-	color: #70798C;
+	color: black;
 	display: flex;
 	justify-content: center;
 	align-items: center !important;

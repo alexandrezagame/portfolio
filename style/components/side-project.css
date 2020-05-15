@@ -53,22 +53,31 @@ section.intro:nth-child(odd) {
 
 .full-image.image0 {
   background-image: url("https://images.pexels.com/photos/2681319/pexels-photo-2681319.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-position: center;
+  background-size: cover;
   width: 50%;
 }
 
 .full-image.image1 {
   background-image: url("https://images.pexels.com/photos/58639/pexels-photo-58639.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   width: 50%;
+  background-size: cover;
+  background-position: center;
 }
 
 .full-image.image2 {
   background-image: url("https://images.pexels.com/photos/22185/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500");
   width: 50%;
+  background-position: center;
+  background-size: cover;
 }
 
 .full-image.image3 {
   background-image: url("https://miro.medium.com/max/1400/0*UzZve3Ep15JV7Vza");
   width: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .pick-a-side button {
@@ -102,6 +111,12 @@ section.intro:nth-child(odd) {
     padding: 30px;
     margin: 0 !important;
   }
+  
+  .image0 {
+    height: 100vw !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
 
   .image1 {
     height: 100vw !important;
@@ -119,6 +134,9 @@ section.intro:nth-child(odd) {
     height: 100vw !important;
     width: 100% !important;
     margin: 0 !important;
+    background-position: center;
+    background-size: contain !important;
+    background-repeat: no-repeat;
   }
 }
 
