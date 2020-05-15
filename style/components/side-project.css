@@ -51,6 +51,11 @@ section.intro:nth-child(odd) {
   top: 0;
 }
 
+.full-image.image0 {
+  background-image: url("https://images.pexels.com/photos/2681319/pexels-photo-2681319.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  width: 50%;
+}
+
 .full-image.image1 {
   background-image: url("https://images.pexels.com/photos/58639/pexels-photo-58639.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   width: 50%;
