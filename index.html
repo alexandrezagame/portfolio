@@ -157,9 +157,21 @@
                 Interested in working together? Feel free to contact me for any project or collaboration.
             </p>
         </section>
+        <div class="changing-word">
+            <p>I am&nbsp;</p>
+            <span class="word wisteria">adaptable.</span>
+            <span class="word midnight">responsive.</span>
+            <span class="word belize">funny.</span>
+            <span class="word pomegranate">attentive.</span>
+            <span class="word green">disciplined.</span>
+            <span class="word belize">dedicated.</span>
+            <span class="word wisteria">creative.</span>
+            <span class="word midnight">curious.</span>
+            <span class="word pomegranate">happy.</span>
+        </div>
         <!-- <section class="background"></section> -->
     </div>
-    <!-- about me section -->
+        <!-- about me section -->
     <section id="about">
         <a href="https://www.linkedin.com/in/alexandrezagame/" class="my-linkedin" target="_blank">Linkedin</a>
         <a href="https://github.com/alexandrezagame" class="my-github" target="_blank">GitHub</a>
@@ -549,6 +561,65 @@ changer.addEventListener("input", function() {
 })
 </script>
 
+<!-- changing-word -->
+<script>
+    var words = document.getElementsByClassName('word');
+var wordArray = [];
+var currentWord = 0;
+
+words[currentWord].style.opacity = 1;
+for (var i = 0; i < words.length; i++) {
+  splitLetters(words[i]);
+}
+
+function changeWord() {
+  var cw = wordArray[currentWord];
+  var nw = currentWord == words.length-1 ? wordArray[0] : wordArray[currentWord+1];
+  for (var i = 0; i < cw.length; i++) {
+    animateLetterOut(cw, i);
+  }
+  
+  for (var i = 0; i < nw.length; i++) {
+    nw[i].className = 'letter behind';
+    nw[0].parentElement.style.opacity = 1;
+    animateLetterIn(nw, i);
+  }
+  
+  currentWord = (currentWord == wordArray.length-1) ? 0 : currentWord+1;
+}
+
+function animateLetterOut(cw, i) {
+  setTimeout(function() {
+        cw[i].className = 'letter out';
+  }, i*80);
+}
+
+function animateLetterIn(nw, i) {
+  setTimeout(function() {
+        nw[i].className = 'letter in';
+  }, 340+(i*80));
+}
+
+function splitLetters(word) {
+  var content = word.innerHTML;
+  word.innerHTML = '';
+  var letters = [];
+  for (var i = 0; i < content.length; i++) {
+    var letter = document.createElement('span');
+    letter.className = 'letter';
+    letter.innerHTML = content.charAt(i);
+    word.appendChild(letter);
+    letters.push(letter);
+  }
+  
+  wordArray.push(letters);
+}
+
+changeWord();
+setInterval(changeWord, 4000);
+
+
+</script>
 
 
 
