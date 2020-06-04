@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:image" content="https://images.pexels.com/photos/942317/pexels-photo-942317.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
-    <link rel='icon' href='favicon.ico' type='image/x-icon'/>
+    <link rel='icon' href='favicon.ico' type='image/x-icon' />
     <title>Alexandre Zagame Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&display=swap" rel="stylesheet">
@@ -421,6 +421,34 @@
             </div>
             <section class="intro">
                 <div class="text">
+                    <h2>Parallax</h2>
+                    <p>
+                        With this project, I wanted to go in depth into scroll events and parallax by adding progress bars, waypoints and thresholds.
+                    </p>
+                    <p>
+                        The code is only CSS, HTML and JavaScript. The challenge was to understand how to obtain the midview point on each page for the parallax effect to work. The other interesting aspects of this project was to manage the change of style when reaching a certain section of the site (changing for instance the color of the font to white/black). And finally, working on a lateral scrollbar with a width relative to the lenght of the website and also changes styles.
+                        <br>
+                        <code>
+                            <br>
+                            const parallaxTags = section.querySelectorAll(`[data-parallax]`) <br>
+                            <br>
+                            // loop over each parallaxed tag <br>
+                            parallaxTags.forEach(tag => { <br>
+                            const speed = parseFloat(tag.getAttribute("data-parallax")) <br>
+                            tag.style.transform = `translate(0, ${distanceToSection * speed}px)` <br>
+                            }) <br>
+                            . <br>
+                            . <br>
+                            . <br>
+                        </code>
+                    </p>
+                    Check the website <a href="https://www.azb-photography.com/" target="_blank"><i class="fab fa-app-store"></i></a>
+                </div>
+                <div class="full-image image5">
+                </div>
+            </section>
+            <section class="intro">
+                <div class="text">
                     <h2>Font Finder</h2>
                     <p>
                         With this project, I wanted to work with form tags such as inputs, sliders, checkboxes and select boxes to build up interactivity my projects. The aim was to create a platform where any one can test different fonts, sizes, weights and background colors to know what to use for their own projects.
@@ -442,7 +470,6 @@
                             . <br>
                         </code>
                     </p>
-                    
                     Check the website <a href="https://www.fontfinder.xyz" target="_blank"><i class="fab fa-app-store"></i></a>
                 </div>
                 <div class="full-image image4">

@@ -88,6 +88,14 @@ section.intro:nth-child(odd) {
   background-repeat: no-repeat;
 }
 
+.full-image.image5 {
+  background-image: url("https://images.pexels.com/photos/731217/pexels-photo-731217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  width: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .pick-a-side button {
   background-color: blue;
   color: white;
@@ -148,6 +156,15 @@ section.intro:nth-child(odd) {
   }
 
   .image4 {
+    height: 100vw !important;
+    width: 100% !important;
+    margin: 0 !important;
+    background-position: center;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+  }
+
+  .image5 {
     height: 100vw !important;
     width: 100% !important;
     margin: 0 !important;
