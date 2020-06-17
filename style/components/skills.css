@@ -84,8 +84,10 @@ section.banner-text-skills {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #000000;
-	color: white;
+	background-image: url(https://images.pexels.com/photos/2847648/pexels-photo-2847648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background-position: center;
+  background-size: cover;
+  color: white;
 	text-decoration: none;
 	position: relative;
 }
@@ -96,9 +98,10 @@ section.banner-text-skills {
 	list-style-type: none;
 	font-size: 24px;
 	width: 400px;
+  background-color: none;
 }
 
-span {
+.skills-list span {
 	padding: 0 15px;
 }
 
@@ -111,15 +114,16 @@ span {
 } 
 
 .skills-text h2 span { 
-    background: black; 
+    background: #1a535c; 
     padding:0 10px; 
     color: white;
+    font-size: 24px !important;
 }
 
 .skills-list h4 {
    width: 100%; 
    text-align: center; 
-   border-bottom: 2px solid white; 
+   /*border-bottom: 2px solid white; */
    margin: 30px 0 20px; 
 } 
 
@@ -136,6 +140,7 @@ span {
 .skills-text p {
 	text-align: center !important;
 	padding-top: 25px;
-	color: white;
+	color: #f7fff7;
+  font-size: 24px !important;
 	/*position: relative;*/
 }

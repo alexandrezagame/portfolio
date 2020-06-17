@@ -8,7 +8,7 @@
 }*/
 
 #about a {
-	color: white;
+	color: #ffe66d;
 	text-decoration: none;
 	font-size: 20px;
 	border-bottom: 4px solid transparent;
@@ -22,7 +22,7 @@
 #about a:after {
   content: '';
   height: 3px;
-  background: white;
+  background: #4ecdc4;
   display: block;
   transition: width 0.3s ease-in-out;
   margin: 0 auto;

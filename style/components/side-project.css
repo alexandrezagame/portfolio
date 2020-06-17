@@ -30,6 +30,7 @@ section.intro:nth-child(odd) {
 .text h2 {
   padding-top: 15px;
   padding-bottom: 25px;
+  color: #ff6b6b !important;
 }
 
 .full-image {

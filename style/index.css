@@ -26,6 +26,10 @@ body.dark {
 	color: #ffffff;
 }*/
 
+span {
+  font-family: 'Manrope', sans-serif !important;
+  font-size: 20px !important;
+}
 
 p {
 	font-family: 'Manrope', sans-serif !important;

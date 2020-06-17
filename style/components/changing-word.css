@@ -6,9 +6,19 @@
   font-size: 40px;
 }*/
 
+.changing-word p {
+ font-size: 24px !important;
+ padding-right: 15px;
+}
+
+.changing-word span {
+ font-size: 24px !important;
+}
+
+
 .changing-word {
   /*position: absolute;*/
-  width: 500px;
+  width: auto;
   /*left: 50%;*/
   /*margin-left: -225px;*/
   height: 40px;
@@ -39,7 +49,7 @@
   position: absolute;
   width: auto;
   opacity: 0;
-  color: red !important;
+  color: #ffe66d !important;
   /*font-size: 24px;*/
 }
 

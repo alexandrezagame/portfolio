@@ -171,8 +171,8 @@ section.projects {
 
 .projects h2 {
    text-align: center; 
-   border-bottom: 0px solid #000 !important; 
-   margin: 10px 0 20px; 
+   border-bottom: 0px solid #000 !important;  
+   color: #ff6b6b;
 } 
 
 .text-intro {
@@ -183,9 +183,13 @@ section.projects {
    padding-top: 15px;
    text-align: center; 
    border-bottom: 1px solid #000 !important; 
+   width: auto;
+   margin-right: 100px;
+   margin-left: 100px;
 } 
 
 .projects h2 span { 
+   padding: 0 5px;
     background: #f5f5f5; 
 }
 

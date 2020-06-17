@@ -44,7 +44,7 @@
 } 
 
 .banner-text h2 span { 
-    background: black; 
+    background: #1a535c; 
     padding:0 10px; 
     color: white;
 }
@@ -52,7 +52,7 @@
 section.banner-text {
 	border: 0px solid #000000;
 	padding: 25px 100px 25px 100px;
-	background-color: black;
+	/*background-color: black;*/
 	height: auto;
 }
 
@@ -60,5 +60,6 @@ section.banner-text p {
 	width: 100%;
 	text-align: justify !important;
 	padding: 15px 80px 0 80px;
-	color: white;
+	color: #f7fff7;
+  font-size: 24px !important;
 }
